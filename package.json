@@ -1,0 +1,14 @@
+{
+  "id": "freshdesk",
+  "name": "Freshdesk",
+  "version": "1.0.0",
+  "description": "Freshdesk Tickets",
+  "main": "index.js",
+  "author": "Anders Magnusson <resityardwen@gmail.com>",
+  "license": "MIT",
+  "config": {
+	"hasTeamId": "true",
+    "serviceURL": "https://{teamId}.freshdesk.com/a/tickets/filters/unresolved",
+    "hasNotificationSound": true
+  }
+}
